@@ -15,8 +15,17 @@
 }
 
 
+.clr-gold {
+  color: rgba(253, 199, 0, 1);
+}
+
+
 .clr-black {
   color: var(--colorBlack);
+}
+
+.bg-black {
+  background-color: var(--colorBlack);
 }
 
 .clr-white {
@@ -25,6 +34,10 @@
 
 .bg-white {
   background-color: white;
+}
+
+.clr-gray {
+  color: #4a5565;
 }
 
 
@@ -63,6 +76,10 @@
   gap: 8px;
 }
 
+.gap-16 {
+  gap: 16px;
+}
+
 .gap-24 {
   gap: 24px
 }
@@ -74,6 +91,14 @@
 
 .r-8 {
   border-radius: 8px;
+}
+
+.r-circle {
+  border-radius: 50%;
+}
+
+.shadow {
+  box-shadow: 0 5px 8px #ddd;
 }
 
 .p-relative {
@@ -96,6 +121,31 @@
 
 
 
+.f-13 {
+  font-size: 13px;
+}
+
+.f-14 {
+  font-size: 14px;
+}
+
+.fs-15 {
+  font-size: 15px;
+}
+
+.f-bold {
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
 
 @media(max-width: 900px) {
   .mobile-hidden {
@@ -104,6 +154,10 @@
 
   .mobile-column {
     flex-direction: column;
+  }
+
+  .mobile-gap-8 {
+    gap: 8px;
   }
 
 }
