@@ -1,0 +1,116 @@
+.clr-blue {
+  color: var(--mainColor)
+}
+
+.bg-blue {
+  background-color: var(--mainColor)
+}
+
+.clr-light-blue {
+  color: var(--lightBlue);
+}
+
+.bg-light-blue {
+  background-color: var(--lightBlue);
+}
+
+
+.clr-black {
+  color: var(--colorBlack);
+}
+
+.clr-white {
+  color: white;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+
+.container {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+
+.space-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+
+.gap-4 {
+  gap: 4px;
+}
+
+.gap-8 {
+  gap: 8px;
+}
+
+.gap-24 {
+  gap: 24px
+}
+
+
+.r-4 {
+  border-radius: 4px;
+}
+
+.r-8 {
+  border-radius: 8px;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.p-absolute {
+  position: absolute;
+}
+
+.p-centerY {
+  top: 50%;
+  transform: translateY(-50%)
+}
+
+
+.fit-content {
+  width: fit-content;
+}
+
+
+
+
+@media(max-width: 900px) {
+  .mobile-hidden {
+    display: none;
+  }
+
+  .mobile-column {
+    flex-direction: column;
+  }
+
+}
+
+@media(min-width: 900px) {
+  .desktop-hidden {
+    display: none;
+  }
+
+}

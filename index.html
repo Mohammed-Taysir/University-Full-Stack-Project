@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alkhatib Shop | All You Need In One Place</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesom Library -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel = 'stylesheet' href = "./assets/css/main.css" />
+  <link rel = "stylesheet" href = "./assets/css/base.css" />
+</head>
+<body>
+  <!-- Navbar -->
+   <header class = "container flex space-between align-center">
+      <a href = "index.html" class = "logo main-color flex align-center gap-8" >
+        <div class = "logo-icon bg-blue flex align-center justify-center r-4">
+          <i class="fa-solid fa-shop"></i>
+        </div>
+        <p class = "clr-black">
+          AlkhatibShop
+        </p>
+      </a>
+      
+      <nav class = "flex align-center gap-24 main-nav mobile-hidden">
+        <a href = "index.html" class = "active clr-black">Home</a>
+        <a href = "#" class = "clr-black">Products</a>
+        <a href = "#" class = "clr-black">Contacts</a>
+      </nav>
+      
+      <div class = "search-div p-relative mobile-hidden">
+        <i class="fa-solid fa-magnifying-glass p-absolute p-centerY clr-blue"></i>
+        <input  type = "text" class = "search-input r-8" placeholder="Search Products..." />
+      </div>
+
+      <ul class = "flex align-center gap-24 ">
+        <li>
+          <a href = "#" class = "clr-black link-icon cart-icon p-relative">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+        </li>
+        <li>
+          <a href = "#" class = "clr-black link-icon">
+            <i class="fa-regular fa-user"></i>
+          </a>
+        </li>
+      </ul>
+      
+      <div class = "desktop-hidden">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+   </header>
+
+   <!-- Hero Section  -->
+   <div class = "hero bg-blue">
+      <div class = "container flex align-center space-between mobile-column">
+        <div class = "content flex flex-column gap-24">
+          <div class = "collection clr-white bg-light-blue fit-content">
+            New Collection 2026
+          </div>
+          <h1 class = "clr-white hero-title">
+            Discover Amazing Products at Great Prices
+          </h1>
+          <p class = "clr-white banner-para">
+            Shop the latest trends with exclusive deals. Free shipping on orders over $50.
+          </p>
+          <div class = "buttons">
+            <a href = "#" class = "shop-btn r-4">
+              Shop Now
+            </a>
+          </div>
+        </div>
+        <div class = "image">
+          <img src = "./assets/images/heroimage.png"  />
+        </div>
+      </div>
+   </div>
+</body>
+</html>
