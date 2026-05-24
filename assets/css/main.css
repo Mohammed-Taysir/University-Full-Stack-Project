@@ -20,7 +20,7 @@ ul {
 
 body {
   font-family: 'Inter', sans-serif;
-  
+  overflow-x: hidden;
 }
 
 header {
@@ -50,12 +50,12 @@ header {
   color: white;
 }
 
-.main-nav a:hover,
-.main-nav a.active {
+a.page-link:hover,
+a.page-link.active {
   color: var(--mainColor);
 }
 
-.search-div i {
+header .search-div i {
   left: 15px;
   z-index: 1;
 }
@@ -107,6 +107,9 @@ header {
 }
 
 @media(max-width: 900px) {
+  .logo p {
+    font-size: 15px;
+  }
   .hero .container {
     gap: 60px;
     align-items: center;
@@ -307,3 +310,79 @@ footer {
   padding-top: 30px;
 }
 
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  width: 0;
+  background-color: white;
+  z-index: 9999999;
+  transition: 0.7s ease;
+  overflow: hidden;
+  padding-top: 60px;
+  
+}
+
+.modal.active {
+  left: 0;
+  width: 100%;
+}
+
+.modal .close-button {
+  background-color: var(--mainColor);
+  color: white;
+  border: none;
+  width: 30px; 
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.modal .search-div {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.modal .search-div input {
+  width: 100%;
+  padding: 10px;
+  padding-left: 25px;
+  box-sizing: border-box;
+  outline: none;
+  border: 2px solid var(--colorBlack);
+}
+
+.modal .search-div input:focus {
+  border: 2px solid var(--mainColor);
+}
+
+
+.modal .search-div i {
+  left: 8px;
+}
+
+.modal nav {
+  padding-left: 20px;
+  margin-top: 40px;
+}
+
+.modal .logo {
+  bottom: 20px;
+  left: 5px;
+}
+
+@media(max-width: 900) {
+  .logo-icon {
+    width: 30px;
+    height: 30px;
+
+  }
+
+  .logo p {
+    font-size: 14px;
+  }
+}

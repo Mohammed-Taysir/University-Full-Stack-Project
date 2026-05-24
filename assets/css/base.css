@@ -46,6 +46,17 @@
   padding-right: 60px;
 }
 
+@media(max-width: 900px) {
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+.d-none {
+  display: none;
+}
+
 .flex {
   display: flex;
 }
@@ -84,6 +95,9 @@
   gap: 24px
 }
 
+.gap-34 {
+  gap: 34;
+}
 
 
 
