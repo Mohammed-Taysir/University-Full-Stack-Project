@@ -342,12 +342,12 @@ footer {
   top: 10px;
 }
 
-.modal .search-div {
+.nav-modal .search-div {
   margin-left: 20px;
   margin-right: 20px;
 }
 
-.modal .search-div input {
+.nav-modal .search-div input {
   width: 100%;
   padding: 10px;
   padding-left: 25px;
@@ -356,21 +356,21 @@ footer {
   border: 2px solid var(--colorBlack);
 }
 
-.modal .search-div input:focus {
+.nav-modal .search-div input:focus {
   border: 2px solid var(--mainColor);
 }
 
 
-.modal .search-div i {
+.nav-modal .search-div i {
   left: 8px;
 }
 
-.modal nav {
+.nav-modal nav {
   padding-left: 20px;
   margin-top: 40px;
 }
 
-.modal .logo {
+.nav-modal .logo {
   bottom: 20px;
   left: 5px;
 }
@@ -385,4 +385,105 @@ footer {
   .logo p {
     font-size: 14px;
   }
+}
+
+
+/* Products Page */
+
+.products-page {
+  padding-top: 120px;
+}
+
+.products-page-title {
+  text-align: center;
+}
+
+.products-page-title h2 {
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+
+
+.products-page .container {
+  padding-bottom: 60px;
+  padding-top: 40px;
+}
+
+.products-page-sidebar {
+  width: 250px;
+  height: 100%;
+  padding: 15px;
+}
+
+ .filter-icon {
+  width: 30px;
+  height: 30px;
+  background-color: var(--mainColor);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.products-page-sidebar .filter-part {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+.filters-items {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.filters-items > div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.filters-items ul {
+  padding: 5px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-radius: 8px;
+}
+
+.filters-items ul li {
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #f9fafb;
+  cursor: pointer;
+}
+
+.filters-items ul li:hover,
+.filters-items ul li.active {
+  background-color: var(--mainColor);
+  color: white;
+  font-weight: bold;
+}
+
+.product-gallery {
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.product-gallery img {
+  height: 350px;
+  width: 100%;
+}
+
+
+
+.filter-modal {
+  overflow-y: scroll;
+}
+
+.filter-modal .filters-items {
+  padding: 20px;
 }

@@ -30,9 +30,9 @@
       </a>
 
       <nav class="flex align-center gap-24 main-nav mobile-hidden">
-        <a href="index.html" class="active page-link clr-black">Home</a>
-        <a href="#" class="page-link clr-black">Products</a>
-        <a href="#" class="page-link clr-black">Contacts</a>
+        <a href="index.html" class="page-link clr-black">Home</a>
+        <a href="products.html" class="active page-link clr-black">Products</a>
+        <a href="contact.html" class="page-link clr-black">Contacts</a>
       </nav>
 
       <div class="search-div p-relative mobile-hidden">
@@ -63,13 +63,172 @@
         <i class="fa-solid fa-bars"></i>
       </div>
     </header>
-
-    
-
-    <main>
-        <div>
-          
+    <main class="products-page">
+      <div class="products-page-title flex flex-column gap-4">
+        <h2 class="clr-balck">All Products</h2>
+        <p class="clr-gray fs-15">Discover our complete collection</p>
+      </div>
+      <div class = "desktop-hidden filter-modal-icon cursor-pointer">
+        <div class="filter-icon">
+          <i class="fa-solid fa-filter"></i>
         </div>
+      </div>
+      <div class="container flex">
+        <div class="products-page-sidebar r-8 shadow mobile-hidden">
+          <div class="filter-part flex align-center gap-8">
+            <div class="filter-icon">
+              <i class="fa-solid fa-filter"></i>
+            </div>
+            <span class="f-bold">Filter</span>
+          </div>
+          <div class="filters-items">
+            <div>
+              <h3>Categories</h3>
+              <ul class="categories-list">
+                <li class="active">All</li>
+                <li>Electronics</li>
+                <li>Fashion</li>
+                <li>Home & Garden</li>
+                <li>Sports</li>
+                <li>Books</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3>Price Range</h3>
+              <ul class="categories-list">
+                <li class="active">All Prices</li>
+                <li>$0 - $50</li>
+                <li>$50 - $100</li>
+                <li>$100 - $500</li>
+                <li>$500+</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Rating</h3>
+              <ul class="categories-list">
+                <li class="active">
+                  <i class="fa-solid fa-star f-13 clr-gold"></i>5+
+                </li>
+                <li><i class="fa-solid fa-star f-13 clr-gold"></i>4+</li>
+                <li><i class="fa-solid fa-star f-13 clr-gold"></i>3+</li>
+                <li><i class="fa-solid fa-star f-13 clr-gold"></i>2+</li>
+                <li><i class="fa-solid fa-star f-13 clr-gold"></i>1+</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="product-gallery">
+          <div class="product-box r-8 shadow">
+            <div class="product-image">
+              <img src="./assets/images/produc1.png" />
+            </div>
+            <div class="product-content">
+              <h3 class="clr-black">Product One</h3>
+              <div class="fs-14 flex align-center gap-4">
+                <i class="fa-solid fa-star f-13 clr-gold"></i
+                ><span class="clr-gray">3.4</span>
+              </div>
+              <div class="flex align-center space-between">
+                <span class="product-price clr-blue f-bold">$299.99</span>
+                <span class="show-product r-8 bg-blue cursor-pointer"
+                  ><i class="fa-solid fa-cart-shopping clr-white"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+          <div class="product-box r-8 shadow">
+            <div class="product-image">
+              <img src="./assets/images/product2.png" />
+            </div>
+            <div class="product-content">
+              <h3 class="clr-black">Product Two</h3>
+              <div class="fs-14 flex align-center gap-4">
+                <i class="fa-solid fa-star f-13 clr-gold"></i
+                ><span class="clr-gray">3.4</span>
+              </div>
+              <div class="flex align-center space-between">
+                <span class="product-price clr-blue f-bold">$299.99</span>
+                <span class="show-product r-8 bg-blue cursor-pointer"
+                  ><i class="fa-solid fa-cart-shopping clr-white"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+          <div class="product-box r-8 shadow">
+            <div class="product-image">
+              <img src="./assets/images/product3.png" />
+            </div>
+            <div class="product-content">
+              <h3 class="clr-black">Product Three</h3>
+              <div class="fs-14 flex align-center gap-4">
+                <i class="fa-solid fa-star f-13 clr-gold"></i
+                ><span class="clr-gray">3.4</span>
+              </div>
+              <div class="flex align-center space-between">
+                <span class="product-price clr-blue f-bold">$299.99</span>
+                <span class="show-product r-8 bg-blue cursor-pointer"
+                  ><i class="fa-solid fa-cart-shopping clr-white"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+          <div class="product-box r-8 shadow">
+            <div class="product-image">
+              <img src="./assets/images/product4.png" />
+            </div>
+            <div class="product-content">
+              <h3 class="clr-black">Product Four</h3>
+              <div class="fs-14 flex align-center gap-4">
+                <i class="fa-solid fa-star f-13 clr-gold"></i
+                ><span class="clr-gray">3.4</span>
+              </div>
+              <div class="flex align-center space-between">
+                <span class="product-price clr-blue f-bold">$299.99</span>
+                <span class="show-product r-8 bg-blue cursor-pointer"
+                  ><i class="fa-solid fa-cart-shopping clr-white"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+          <div class="product-box r-8 shadow">
+            <div class="product-image">
+              <img src="./assets/images/product5.png" />
+            </div>
+            <div class="product-content">
+              <h3 class="clr-black">Product Five</h3>
+              <div class="fs-14 flex align-center gap-4">
+                <i class="fa-solid fa-star f-13 clr-gold"></i
+                ><span class="clr-gray">3.4</span>
+              </div>
+              <div class="flex align-center space-between">
+                <span class="product-price clr-blue f-bold">$299.99</span>
+                <span class="show-product r-8 bg-blue cursor-pointer"
+                  ><i class="fa-solid fa-cart-shopping clr-white"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+          <div class="product-box r-8 shadow">
+            <div class="product-image">
+              <img src="./assets/images/product6.png" />
+            </div>
+            <div class="product-content">
+              <h3 class="clr-black">Product Six</h3>
+              <div class="fs-14 flex align-center gap-4">
+                <i class="fa-solid fa-star f-13 clr-gold"></i
+                ><span class="clr-gray">3.4</span>
+              </div>
+              <div class="flex align-center space-between">
+                <span class="product-price clr-blue f-bold">$299.99</span>
+                <span class="show-product r-8 bg-blue cursor-pointer"
+                  ><i class="fa-solid fa-cart-shopping clr-white"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <footer class="bg-black container">
       <div class="head-footer">
@@ -120,9 +279,9 @@
       </div>
     </footer>
 
-    <div class="modal">
+    <div class="nav-modal modal">
       <button class="close-button"><i class="fa-solid fa-x"></i></button>
-      <div >
+      <div>
         <div class="search-div p-relative">
           <i
             class="fa-solid fa-magnifying-glass p-absolute p-centerY clr-blue"
@@ -135,20 +294,62 @@
         </div>
 
         <div>
-          <nav class = "flex flex-column gap-24">
-            <a href = "index.html" class = "clr-black active page-link">Home</a>
-            <a href = "products.html" class = "clr-black page-link">Products</a>
-            <a href = "contact.html" class = "clr-black page-link">Contact</a>
+          <nav class="flex flex-column gap-24">
+            <a href="index.html" class="clr-black active page-link">Home</a>
+            <a href="products.html" class="clr-black page-link">Products</a>
+            <a href="contact.html" class="clr-black page-link">Contact</a>
           </nav>
         </div>
-
       </div>
-      <a href="index.html" class="logo main-color flex align-center gap-8 p-absolute">
+      <a
+        href="index.html"
+        class="logo main-color flex align-center gap-8 p-absolute"
+      >
         <div class="logo-icon bg-blue flex align-center justify-center r-4">
           <i class="fa-solid fa-shop"></i>
         </div>
         <p class="clr-black">AlkhatibShop</p>
       </a>
+    </div>
+
+    <div class="filter-modal modal">
+      <button class="close-button"><i class="fa-solid fa-x"></i></button>
+      <div class="filters-items">
+        <div>
+        <h3>Categories</h3>
+        <ul class="categories-list">
+          <li class="active">All</li>
+          <li>Electronics</li>
+          <li>Fashion</li>
+          <li>Home & Garden</li>
+          <li>Sports</li>
+          <li>Books</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Price Range</h3>
+        <ul class="categories-list">
+          <li class="active">All Prices</li>
+          <li>$0 - $50</li>
+          <li>$50 - $100</li>
+          <li>$100 - $500</li>
+          <li>$500+</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Rating</h3>
+        <ul class="categories-list">
+          <li class="active">
+            <i class="fa-solid fa-star f-13 clr-gold"></i>5+
+          </li>
+          <li><i class="fa-solid fa-star f-13 clr-gold"></i>4+</li>
+          <li><i class="fa-solid fa-star f-13 clr-gold"></i>3+</li>
+          <li><i class="fa-solid fa-star f-13 clr-gold"></i>2+</li>
+          <li><i class="fa-solid fa-star f-13 clr-gold"></i>1+</li>
+        </ul>
+      </div>
+      </div>
     </div>
 
     <script src="./assets/js/main.js"></script>
