@@ -259,6 +259,28 @@ header {
   font-size: 15px;
 }
 
+.view-all-products-part {
+  padding-top: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.view-all-products-part a {
+  background-color: var(--mainColor);
+  color: white;
+  padding: 15px 20px;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: 0.3s ease;
+  display: block;
+  width: fit-content;
+}
+
+.view-all-products-part a:hover {
+  transform: scale(1.2);
+}
+
 .show-product {
   width: 40px;
   height: 40px;
@@ -284,3 +306,4 @@ footer {
 .bottom-footer {
   padding-top: 30px;
 }
+
