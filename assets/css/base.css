@@ -78,6 +78,14 @@
   justify-content: center;
 }
 
+.flex-grow {
+  flex-grow: 1;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 
 .gap-4 {
   gap: 4px;
@@ -99,7 +107,10 @@
   gap: 34;
 }
 
-
+.py-15 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 
 .r-4 {
   border-radius: 4px;
@@ -157,9 +168,21 @@
   text-align: center;
 }
 
+.text-right {
+  text-align: right;
+}
+
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.line-height {
+  line-height: 1.5
+}
+
+.full-screen {
+  min-height: 100vh;
 }
 
 

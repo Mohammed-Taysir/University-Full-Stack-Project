@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alkhatib Shop | All You Need In One Place</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesom Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="container flex space-between align-center">
+      <a href="index.html" class="logo main-color flex align-center gap-8">
+        <div class="logo-icon bg-blue flex align-center justify-center r-4">
+          <i class="fa-solid fa-shop"></i>
+        </div>
+        <p class="clr-black">AlkhatibShop</p>
+      </a>
+
+      <nav class="flex align-center gap-24 main-nav mobile-hidden">
+        <a href="index.html" class="active page-link clr-black">Home</a>
+        <a href="products.html" class="page-link clr-black">Products</a>
+        <a href="#" class="page-link clr-black">Contacts</a>
+      </nav>
+
+      <div class="search-div p-relative mobile-hidden">
+        <i
+          class="fa-solid fa-magnifying-glass p-absolute p-centerY clr-blue"
+        ></i>
+        <input
+          type="text"
+          class="search-input r-8"
+          placeholder="Search Products..."
+        />
+      </div>
+
+      <ul class="flex align-center gap-24">
+        <li>
+          <a href="#" class="clr-black link-icon cart-icon p-relative">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+        </li>
+        <li>
+          <a href="login.html" class="clr-black link-icon">
+            <i class="fa-regular fa-user"></i>
+          </a>
+        </li>
+      </ul>
+
+      <div class="desktop-hidden list-icon cursor-pointer">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+
+    <main class="login-page">
+      <div class="container">
+        <div>
+          <div class="welcom-message">
+            <h3 class="clr-black text-center">Create Account</h3>
+            <p class="text-center fs-15 clr-gray">
+              Sign Up New Account
+            </p>
+          </div>
+          <form class = "flex flex-column gap-24">
+            <div class="flex flex-column gap-8">
+              <label for="fullname" class="clr-gray f-14 f-bold">Full Name</label>
+              <input
+                id="fullname"
+                type="text"
+                name="fullname"
+                placeholder="Your Full Name"
+              />
+            </div>
+            <div class="flex flex-column gap-8">
+              <label for="email" class="clr-gray f-14 f-bold">Email</label>
+              <input
+                id="email"
+                type="text"
+                name="email"
+                placeholder="you@example.com"
+              />
+            </div>
+            <div class = "flex flex-column gap-8">
+              <label for = "password" class = "clr-gray f-bold f-14">Create Password</label>
+              <input
+                id = "password"
+                type="password"
+                name="password"
+                placeholder="Create Password"
+              />
+            </div>
+            <div class = "flex flex-column gap-8">
+              <label for = "confirm-password" class = "clr-gray f-bold f-14">Confirm Password</label>
+              <input
+                id = "confirm-password"
+                type="password"
+                name="confirm-password"
+                placeholder="Confirm Password"
+              />
+            </div>
+          
+            <button type="submit" class = "r-8">Sign Up</button>
+          </form>
+          <div class = "form-footer">
+            <p class = "clr-gray f-14">Already Have An Account ? <a class = 'f-bold clr-blue' href = "login.html">Sign In</a></p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-black container">
+      <div class="head-footer">
+        <div class="flex flex-column gap-16">
+          <a href="index.html" class="logo main-color flex align-center gap-8">
+            <div class="logo-icon bg-blue flex align-center justify-center r-4">
+              <i class="fa-solid fa-shop"></i>
+            </div>
+            <p class="clr-white">AlkhatibShop</p>
+          </a>
+          <p class="f-14 clr-gray">
+            Your trusted online shopping destination for quality products at
+            great prices.
+          </p>
+        </div>
+        <div class="flex flex-column gap-16">
+          <h3 class="clr-white">Quic Links</h3>
+          <nav class="links flex flex-column gap-8">
+            <a href="#" class="f-14 clr-white">Home</a>
+            <a href="#" class="f-14 clr-white">Products</a>
+            <a href="#" class="f-14 clr-white">Contact Us</a>
+          </nav>
+        </div>
+        <div class="flex flex-column gap-16">
+          <h3 class="clr-white">Customer Service</h3>
+          <nav class="links flex flex-column gap-8">
+            <a href="#" class="f-14 clr-white">Help Center</a>
+            <a href="#" class="f-14 clr-white">Returns</a>
+            <a href="#" class="f-14 clr-white">Shipping Info</a>
+          </nav>
+        </div>
+        <div class="flex flex-column gap-16">
+          <h3 class="clr-white">Contact Us</h3>
+          <nav class="links flex flex-column gap-8">
+            <a href="#" class="f-14 clr-white">+970567894494</a>
+            <a href="#" class="f-14 clr-white">support@shophub.com</a>
+            <a href="#" class="f-14 clr-white">Khanyounes Jaser</a>
+          </nav>
+        </div>
+      </div>
+      <div class="bottom-footer">
+        <p
+          class="flex align-center space-between mobile-column mobile-gap-8 clr-white"
+        >
+          <span>All Rights Reserved &copy; 2026</span>
+          <span>Eng: Mohammed Taysir Alkhatib</span>
+        </p>
+      </div>
+    </footer>
+
+    <div class="nav-modal modal">
+      <button class="close-button"><i class="fa-solid fa-x"></i></button>
+      <div>
+        <div class="search-div p-relative">
+          <i
+            class="fa-solid fa-magnifying-glass p-absolute p-centerY clr-blue"
+          ></i>
+          <input
+            type="text"
+            class="modal-search-input r-8"
+            placeholder="Search Products..."
+          />
+        </div>
+
+        <div>
+          <nav class="flex flex-column gap-24">
+            <a href="index.html" class="clr-black active page-link">Home</a>
+            <a href="products.html" class="clr-black page-link">Products</a>
+            <a href="contact.html" class="clr-black page-link">Contact</a>
+          </nav>
+        </div>
+      </div>
+      <a
+        href="index.html"
+        class="logo main-color flex align-center gap-8 p-absolute"
+      >
+        <div class="logo-icon bg-blue flex align-center justify-center r-4">
+          <i class="fa-solid fa-shop"></i>
+        </div>
+        <p class="clr-black">AlkhatibShop</p>
+      </a>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
